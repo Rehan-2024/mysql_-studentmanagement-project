@@ -1,0 +1,39 @@
+create database students;
+
+use students;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    department VARCHAR(100),
+    marks INT
+);
+
+
+INSERT INTO students (name, department, marks) VALUES
+('Aditya Sharma', 'Computer Science', 90),
+('Mira Varma', 'Electronics', 78),
+('Ronit Das', 'Mechanical', 91),
+('Ishita Nair', 'Information Technology', 83),
+('Karan Singh', 'Civil', 70),
+('Priya Iyer', 'Electronics', 85),
+('Siddharth Rao', 'Computer Science', 92),
+('Nisha Gupta', 'Mechanical', 75),
+('Arjun Mehta', 'Civil', 68),
+('Simran Malhotra', 'Information Technology', 89),
+('Vikram Reddy', 'Electronics', 80),
+('Ananya Basu', 'Computer Science', 96),
+('Rahul Khanna', 'Mechanical', 81),
+('Tanvi Menon', 'Civil', 73),
+('Dev Kumar', 'Information Technology', 91),
+('Rohan Kulkarni', 'Computer Science', 88),
+('Pooja Reddy', 'Electronics', 76),
+('Manav Chawla', 'Mechanical', 69),
+('Ritika Sahni', 'Civil', 80),
+('Aarav Jain', 'Information Technology', 94),
+('Shruti Desai', 'Electronics', 87),
+('Kabir Yadav', 'Computer Science', 83),
+('Nidhi Chaturvedi', 'Mechanical', 90),
+('Harsh Singh', 'Civil', 74),
+('Akanksha Pillai', 'Information Technology', 86);
+
